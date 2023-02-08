@@ -9,38 +9,33 @@ body {
 }
 
 
-    header {
-        width: 100%;
-        border: 10px solid rgb(2, 65, 17);
-        background-color: lightblue;
+header {
+     width: 100%;
+    border: 10px solid rgb(2, 65, 17);
+     background-color: lightblue;
       }
       
 
 
 
 h1 {
-    display: inline-block;
-    font-size: 40px;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
 }
 
 img {
     display: flex;
-    position: absolute;
-    padding: 0 auto;
+    flex-wrap: wrap;
+    padding: 5px;
     width: 100px;
     height: 100px;
 
 }
 
 
-
-
-
-
-
-/* use this to add effects to h1, add cat image in background section 
-section {
+section id {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,6 +43,14 @@ section {
     height: 100vh;
 }
 
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start space-between;
+}
+
+/* 
 h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 80px;
